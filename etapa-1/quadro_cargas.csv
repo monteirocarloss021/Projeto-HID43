@@ -1,0 +1,16 @@
+﻿Ambiente;Luz_pontos_VA;TUG_pontos_VA;Equipamento;P_W;U_V;FP;I_A;Referencias
+Vestiário;1 / 340;4 / 1.900;CH1 · Chuveiro elétrico;5.500;220;1,00;25,00 *;"L; T-e; P-a; E; C; H"
+↳;—;—;CH2 · Chuveiro elétrico;5.500;220;1,00;25,00 *;"E; C; H"
+↳;—;—;CH3 · Chuveiro elétrico;5.500;220;1,00;25,00 *;"E; C; H"
+↳;—;—;CH4 · Chuveiro elétrico;5.500;220;1,00;25,00 *;"E; C; H"
+↳;—;—;CH5 · Chuveiro elétrico;5.500;220;1,00;25,00 *;"E; C; H"
+↳;—;—;CH6 · Chuveiro elétrico;5.500;220;1,00;25,00 *;"E; C; H"
+↳;—;—;VE1 · Ventilador/exaustor;100;127;0,80;0,98;E
+Sanitário;1 / 280;4 / 1.900;EX1 · Exaustor;60;127;0,80;0,59;"L; T-a; P-a; E"
+↳;—;—;SM1 · Secador de mãos;1.500;220;0,95;7,18;E
+Cozinha;1 / 220;5 / 2.000;RF1 · Refrigerador;250;127;0,80;2,46;"L; T-b; P-a; E"
+↳;—;—;MO1 · Forno micro-ondas;1.500;220;0,95;7,18;E
+↳;—;—;EX2 · Exaustor da cozinha;150;220;0,80;0,85;E
+↳;—;—;VE2 · Ventilador de teto;100;127;0,80;0,98;E
+Área de serviço;1 / 100;4 / 1.900;ML1 · Máquina de lavar;1.200;127;0,80;11,81 *;"L; T-b; P-a; E; C"
+DML;1 / 100;2 / 1.200;Sem equipamento específico;—;—;—;—;"L; T-b; P-a"

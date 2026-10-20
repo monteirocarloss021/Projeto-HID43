@@ -1,0 +1,23 @@
+{
+  "autor": "Carlos Alberto Monteiro da Cunha",
+  "data_revisao": "20/10/2026",
+  "sistema": "220/127 V",
+  "ambientes": [
+    {"id": "V", "nome": "Vestiário", "area_m2": "23.98", "perimetro_m": "20.00", "pontos_luz": 1, "tug": 4, "criterio_tug": "Demais dependências, área > 6 m²: teto(P/5), por analogia.", "quantidade_ref": "9.5.2.2.1(e)", "carga_ref": "9.5.2.2.2(a)", "observacao": "Sem lavatório; quantidade pelo critério das demais dependências. Por conter banho, potência das TUG pelo critério mais conservador dos banheiros."},
+    {"id": "S", "nome": "Sanitário", "area_m2": "19.84", "perimetro_m": "18.00", "pontos_luz": 1, "tug": 4, "criterio_tug": "Adotados quatro pontos, um junto a cada lavatório.", "quantidade_ref": "9.5.2.2.1(a)", "carga_ref": "9.5.2.2.2(a)", "observacao": "A adoção de quatro pontos é decisão de uso coletivo, acima do mínimo de um ponto próximo ao lavatório; não é exigência de um ponto por cuba."},
+    {"id": "C", "nome": "Cozinha", "area_m2": "16.94", "perimetro_m": "16.50", "pontos_luz": 1, "tug": 5, "criterio_tug": "Teto(P/3,5), por analogia; ao menos duas tomadas sobre a bancada da pia.", "quantidade_ref": "9.5.2.2.1(b)", "carga_ref": "9.5.2.2.2(a)", "observacao": "Cinco pontos de TUG, com ao menos dois deles sobre a bancada da pia; pontos específicos dos aparelhos são adicionais."},
+    {"id": "AS", "nome": "Área de serviço", "area_m2": "8.56", "perimetro_m": "13.50", "pontos_luz": 1, "tug": 4, "criterio_tug": "Teto(P de referência/3,5), por analogia.", "quantidade_ref": "9.5.2.2.1(b)", "carga_ref": "9.5.2.2.2(a)", "observacao": "Referência conservadora: perímetro da envolvente 4,00 × 2,75 m, sem descontar os recortes de DML e depósito de gás. Não representa medição do perímetro útil. A estimativa de 13,00 m em E0 também resulta em quatro pontos."},
+    {"id": "D", "nome": "DML", "area_m2": "1.45", "perimetro_m": "4.80", "pontos_luz": 1, "tug": 2, "criterio_tug": "Teto(P/3,5), por analogia a local de serviço, com tanque.", "quantidade_ref": "9.5.2.2.1(b)", "carga_ref": "9.5.2.2.2(a)", "observacao": "Recinto separado: iluminação e regra dos três primeiros pontos de TUG calculadas separadamente."}
+  ],
+  "equipamentos": [
+    {"ids": ["CH1", "CH2", "CH3", "CH4", "CH5", "CH6"], "ambiente": "V", "nome": "Chuveiro elétrico", "potencia_w": "5500", "tensao_v": "220", "fp": "1.00", "hipotese": "Seis duchas da planta consideradas elétricas nesta previsão. 5.500 W é estimativa por unidade; 220 V é escolha de projeto; FP 1,00 é modelo resistivo."},
+    {"ids": ["VE1"], "ambiente": "V", "nome": "Ventilador/exaustor", "potencia_w": "100", "tensao_v": "127", "fp": "0.80", "hipotese": "Uma unidade de ventilação, estimativa de 100 W; 127 V escolhido; FP 0,80 estimado para motor."},
+    {"ids": ["EX1"], "ambiente": "S", "nome": "Exaustor", "potencia_w": "60", "tensao_v": "127", "fp": "0.80", "hipotese": "Uma unidade, estimativa de 60 W; 127 V escolhido; FP 0,80 estimado para motor."},
+    {"ids": ["SM1"], "ambiente": "S", "nome": "Secador de mãos", "potencia_w": "1500", "tensao_v": "220", "fp": "0.95", "hipotese": "Uma unidade com aquecimento e motor, estimativa de 1.500 W; 220 V escolhido; FP global 0,95 estimado."},
+    {"ids": ["RF1"], "ambiente": "C", "nome": "Refrigerador", "potencia_w": "250", "tensao_v": "127", "fp": "0.80", "hipotese": "Uma unidade, potência elétrica de entrada estimada em 250 W; 127 V escolhido; FP 0,80 estimado para o conjunto em funcionamento."},
+    {"ids": ["MO1"], "ambiente": "C", "nome": "Forno micro-ondas", "potencia_w": "1500", "tensao_v": "220", "fp": "0.95", "hipotese": "Uma unidade, entrada elétrica estimada em 1.500 W, não potência de cocção; 220 V escolhido; FP global 0,95 estimado."},
+    {"ids": ["EX2"], "ambiente": "C", "nome": "Exaustor da cozinha", "potencia_w": "150", "tensao_v": "220", "fp": "0.80", "hipotese": "Uma unidade, estimativa de 150 W; 220 V escolhido; FP 0,80 estimado para motor."},
+    {"ids": ["VE2"], "ambiente": "C", "nome": "Ventilador de teto", "potencia_w": "100", "tensao_v": "127", "fp": "0.80", "hipotese": "Uma unidade indicada na planta, estimativa de 100 W; 127 V escolhido; FP 0,80 estimado para motor."},
+    {"ids": ["ML1"], "ambiente": "AS", "nome": "Máquina de lavar", "potencia_w": "1200", "tensao_v": "127", "fp": "0.80", "hipotese": "Uma unidade adotada, entrada elétrica estimada em 1.200 W; 127 V escolhido; FP global 0,80 estimado. Sem confirmação de modelo ou ligação hidráulica."}
+  ]
+}

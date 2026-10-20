@@ -1,0 +1,92 @@
+{
+  "totais": {
+    "pontos_luz": 5,
+    "iluminacao_va": "1040",
+    "pontos_tug": 19,
+    "tug_va": "8900",
+    "pontos_especificos": 14,
+    "especificos_w": "37860",
+    "especificos_va": "38482.89473684210526315789474",
+    "soma_aparente_va": "48422.89473684210526315789474"
+  },
+  "pontos_acima_10a": [
+    "CH1",
+    "CH2",
+    "CH3",
+    "CH4",
+    "CH5",
+    "CH6",
+    "ML1"
+  ],
+  "premissas": "Dados de potência e FP estimados; itens conferidos no NBR-5410.pdf recebido, versão corrigida de 17/03/2008.",
+  "equipamentos": [
+    {
+      "ids": [
+        "CH1",
+        "CH2",
+        "CH3",
+        "CH4",
+        "CH5",
+        "CH6"
+      ],
+      "corrente_a": "25",
+      "aparente_va_por_unidade": "5.5E+3"
+    },
+    {
+      "ids": [
+        "VE1"
+      ],
+      "corrente_a": "0.9842519685039370078740157480",
+      "aparente_va_por_unidade": "125"
+    },
+    {
+      "ids": [
+        "EX1"
+      ],
+      "corrente_a": "0.5905511811023622047244094488",
+      "aparente_va_por_unidade": "75"
+    },
+    {
+      "ids": [
+        "SM1"
+      ],
+      "corrente_a": "7.177033492822966507177033493",
+      "aparente_va_por_unidade": "1578.947368421052631578947368"
+    },
+    {
+      "ids": [
+        "RF1"
+      ],
+      "corrente_a": "2.460629921259842519685039370",
+      "aparente_va_por_unidade": "312.5"
+    },
+    {
+      "ids": [
+        "MO1"
+      ],
+      "corrente_a": "7.177033492822966507177033493",
+      "aparente_va_por_unidade": "1578.947368421052631578947368"
+    },
+    {
+      "ids": [
+        "EX2"
+      ],
+      "corrente_a": "0.8522727272727272727272727273",
+      "aparente_va_por_unidade": "187.5"
+    },
+    {
+      "ids": [
+        "VE2"
+      ],
+      "corrente_a": "0.9842519685039370078740157480",
+      "aparente_va_por_unidade": "125"
+    },
+    {
+      "ids": [
+        "ML1"
+      ],
+      "corrente_a": "11.81102362204724409448818898",
+      "aparente_va_por_unidade": "1.5E+3"
+    }
+  ]
+}
