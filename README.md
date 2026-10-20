@@ -5,6 +5,17 @@
 Projeto acadêmico dos ambientes de apoio da planta AM008.24-01.A001:
 vestiário, sanitário, cozinha e área de serviço com DML.
 
+## Entrega da Etapa 0
+
+- [Word original — E0_Monteiro.docx](entregas/E0_Monteiro.docx)
+- [PDF da entrega — E0_Monteiro.pdf](entregas/E0_Monteiro.pdf)
+- [Levantamento completo para leitura no GitHub](etapa-0/levantamento.md)
+- [Enunciado, planta e demais materiais da Etapa 0](etapa-0/README.md)
+- [Revisão posterior e correções identificadas na Etapa 1](etapa-0/revisao.md)
+
+O Word reproduz o arquivo recebido; o PDF foi convertido desse original.
+As observações posteriores estão separadas em `etapa-0/revisao.md`.
+
 ## Entrega da Etapa 1
 
 - [Word editável — E1_Monteiro.docx](entregas/E1_Monteiro.docx)
@@ -55,6 +66,8 @@ de alimentadores, condutores ou proteções. A soma escalar em VA não é demand
 | --- | --- |
 | `documentos/originais/` | Anexos recebidos, preservados |
 | `documentos/fontes.sha256` | Integridade dos originais |
+| `etapa-0/README.md` | Índice da entrega, enunciado e materiais de base |
+| `etapa-0/levantamento.md` | Transcrição integral do trabalho E0 para leitura no GitHub |
 | `etapa-0/revisao.md` | Síntese e conferência de E0, sem alterar o original |
 | `etapa-1/dados.json` | Áreas, perímetros de referência, quantidades e equipamentos |
 | `etapa-1/relatorio.md` | Versão textual integral da entrega |
